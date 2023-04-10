@@ -1,5 +1,6 @@
 # Trabalho Complexidade de Algoritimos
-### Autor: Rafael Santos Freire
+### Autor: Rafael Santos 
+### github: https://github.com/RafaScripts/Complexidade-de-Alg
 
 ## Introdução
 O seguinte trabalho visa demonstrar alguns exemplos de complexidade de algoritimos, utilizando a linguagem de programação TypeScript.
