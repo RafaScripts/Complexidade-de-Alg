@@ -3,7 +3,7 @@ import { faker } from '@faker-js/faker';
 import fs from 'fs';
 
 //quantidade de usuarios a serem criados
-export const totalUsers = 2500;
+export const totalUsers = 1000;
 
 //a seguir usado apenas para testes de performance
 //quantidade de dispositivos

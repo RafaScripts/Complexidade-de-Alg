@@ -14,6 +14,13 @@ um gestão melhor das verções do node, pode utilizar o NVM.
 A instalação demonstrada é para linux muda sua instalação de acordo com o seu sistema operacional. Em caso de
 outros sismtemas recomenda-se a instalação pelo site oficial do NodeJS.
 
+instalação basica nativa:
+```bash
+sudo apt-get update
+
+sudo apt-get install nodejs
+```
+
 ### Instalação das dependências
 Para instalar as dependências do projeto, basta executar o comando abaixo no terminal:
 ```bash
@@ -41,7 +48,7 @@ yarn start
 ## exemplos
 ### Exemplo 1
 O primeiro algoritimo a ser executado é o algoritimo para gerar cadastros de usuários com dados aleatórios. O algoritimo gera 1000 cadastros
-(pode ser alterado para mais ou para menos em `src/index.ts` na linha 6 alterando o valor da variavel `totalUsers`). O mesmo algoritimo possui
+(pode ser alterado para mais ou para menos em `src/server.ts` na linha 6 alterando o valor da variavel `totalUsers`). O mesmo algoritimo possui
 uma complexidade constante (O(N)), onde N é o número total de usuários a serem criados. Isso ocorre porque há apenas um loop que itera sobre o número total de usuários a serem criados.
 
 ```ts
